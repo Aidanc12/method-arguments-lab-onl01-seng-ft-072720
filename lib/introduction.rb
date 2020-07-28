@@ -1,10 +1,10 @@
 # lib/introduction.rb 
 
 def introduction(name)
-puts "Hi, my name is #{name}."
+puts "Hi, my name is #{aidan}."
 end 
-def #introduction_with_language(name,language)
+def greeting(name,language=ruby)
 puts "Hi,my name is #{name} And i am learning to program in #{language}."
 end 
 
-introduction_with_language("aidan","ruby")
+
